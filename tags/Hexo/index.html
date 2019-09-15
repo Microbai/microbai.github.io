@@ -227,7 +227,7 @@
       <h2 class="post-title">
         
           <a class="post-title-link" href="/2019/09/14/How-to-build-blog-with-hexo/" itemprop="url">
-            <span itemprop="name">利用 Hexo 搭建个人 Blog</span>
+            <span itemprop="name">利用 Gitpage 和 Hexo 搭建免费个人 Blog</span>
           </a>
         
       </h2>
@@ -299,7 +299,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -308,7 +308,7 @@
       
       <div class="site-state-item site-state-tags">
         
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span>
         
       </div>
@@ -402,5 +402,30 @@
 
   
 
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+  <script>
+      L2Dwidget.init({
+          "model": {
+              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json",<!--这里改模型，前面后面都要改-->
+              "scale": 1
+          },
+          "display": {
+              "position": "right",<!--设置看板娘的上下左右位置-->
+              "width": 150,
+              "height": 300,
+              "hOffset": 0,
+              "vOffset": -20
+          },
+          "mobile": {
+              "show": true,
+              "scale": 0.5
+          },
+          "react": {
+              "opacityDefault": 0.7,<!--设置透明度-->
+              "opacityOnHover": 0.2
+          }
+      });
+  </script>
 </body>
 </html>
